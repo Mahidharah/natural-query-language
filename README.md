@@ -45,4 +45,4 @@ The NLP-to-SQL Translator aims to simplify the process of querying an SQL databa
 
 - Sequence Diagram (of main success scenario)
 
-![Alt text](/Sequence.png)
+![Alt text](/SequenceDiagram.png)
