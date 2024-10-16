@@ -60,7 +60,7 @@ def get_sql_query(user_query):
     #formatted_schema = format_schema(schema)
     
     system_message = (f"Generate only the SQL query based on the database schema: {schema} " +
-                      "Do not provide any explanation, just the SQL code. " +
+                      "Do not provide any explanation, just the SQL code that is compatible with SQlite only. " +
                       "Do not add any markdown syntax. " +
                       "Only provide the SQL code. If the user requests something that you determine to be outside the defined schema, " +
                       "try to find the closest match if not, provide an empty output.")
@@ -230,4 +230,3 @@ exit_button.pack()
 
 # Start the Tkinter event loop
 root.mainloop()
-
