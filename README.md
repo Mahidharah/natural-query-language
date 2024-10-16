@@ -7,7 +7,7 @@ The NLP-to-SQL Translator aims to simplify the process of querying an SQL databa
 
 - Architecture Diagram
 
-![Alt text](/Architecture.png)
+![Alt text](/docs/Architecture.png)
 
 
 - Application Layer:
@@ -45,4 +45,4 @@ The NLP-to-SQL Translator aims to simplify the process of querying an SQL databa
 
 - Sequence Diagram (of main success scenario)
 
-![Alt text](/SequenceDiagram.png)
+![Alt text](/docs/SequenceDiagram.png)
